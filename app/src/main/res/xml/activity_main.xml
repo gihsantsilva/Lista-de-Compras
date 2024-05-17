@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextQuantidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantidade"
+        android:layout_below="@id/editTextNome"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextPreco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Preco"
+        android:layout_below="@id/editTextQuantidade"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar"
+        android:layout_below="@id/editTextPreco"
+        android:layout_margin="16dp"/>
+
+    <ListView
+        android:id="@+id/listViewItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAdd"
+        android:layout_margin="16dp"/>
+
+</RelativeLayout>
