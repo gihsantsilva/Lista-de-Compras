@@ -14,7 +14,7 @@ Este projeto é um aplicativo Android desenvolvido em **Java/Kotlin** com foco n
 
 ## Captura de Tela
 
-![Captura de Tela do App]("C:\Users\gigip\Pictures\Screenshots\Captura de tela 2024-11-24 004634.png")
+![Captura de Tela do App]("https://github.com/gihsantsilva/Lista-de-Compras/blob/d5aa7ba88264187e0e5f9b924622ed871279db28/Captura%20de%20tela%202024-11-24%20004634.png")
 
 ---
 
