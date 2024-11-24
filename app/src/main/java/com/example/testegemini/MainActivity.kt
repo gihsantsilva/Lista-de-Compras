@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         dbHelper.writableDatabase
 
         val items = dbHelper.getAllItems()
-        val adapter = ShoppingItemAdapter(this, items)
+        adapter = ShoppingItemAdapter(this, items) // Initialize the class-level adapter
         val listViewItems: ListView = findViewById(R.id.listViewItems)
         listViewItems.adapter = adapter
 
